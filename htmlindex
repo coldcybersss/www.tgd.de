@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Hacked By YDG-Hack Team</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://wallpapercave.com/wp/wp2757874.gif') no-repeat center center fixed;
+      background-size: cover;
+      color: red;
+      font-family: 'Courier New', monospace;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 60px;
+      margin-top: 20%;
+      text-shadow: 0 0 20px black;
+      animation: titreme 0.1s infinite;
+    }
+
+    @keyframes titreme {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-2px); }
+      50% { transform: translateX(2px); }
+      75% { transform: translateX(-2px); }
+      100% { transform: translateX(0); }
+    }
+
+    .marquee {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: black;
+      color: lime;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>HACKED BY YDG-Hack team</h1>
+
+  <div class="marquee">
+    <marquee>mezin apo bilind apo - İdil kültür merkezine operasyonları durdurursun!! ⚠️</marquee>
+  </div>
+
+  <!-- Müzik Otomatik Çalsın -->
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
